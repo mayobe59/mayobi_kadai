@@ -10,7 +10,7 @@ font-family: "ヒラギノ角ゴ Pro W3";
 */
 
 body{
-    font-family: futura-pt,"ヒラギノ角ゴ Pro W3",sans-serif;
+    font-family: futura-pt,sans-serif,"ヒラギノ角ゴ Pro W3";
     font-style: normal;    
 }
 
@@ -18,7 +18,6 @@ header{
     background-image: url(images/background3.jpg);
     background-repeat:no-repeat;
     background-size: cover;
-    height: 733px;  
 }
 
 .navi{
@@ -46,9 +45,8 @@ header{
 
 .top{
     text-align: center;
-    
-}
-.top img{
+    padding-top: 220px;
+    padding-bottom: 225px;
 }
 .top p{
     color: #ffffff;
@@ -56,10 +54,6 @@ header{
     font-weight: 100;
     font-style: italic;
     margin-top: 35px
-}
-
-.intro{
-    
 }
 
 .intro p{
@@ -81,13 +75,14 @@ header{
     float: left;
 }
 .intro-text1{
-    margin-top: 0px;
+    margin-top: px;
     margin-left: 590px;
     margin-right: 50px;
     
 }
 .intro1 p{
     font-weight: 400;
+    padding-top: 12px;
 }
 
 
@@ -104,7 +99,6 @@ header{
     margin-top: 35px;
 }
 .intro2 p{
-    float: left;
     width: 400px;
 }
 
