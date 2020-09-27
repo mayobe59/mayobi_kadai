@@ -10,7 +10,7 @@ font-family: "ヒラギノ角ゴ Pro W3";
 */
 
 body{
-    font-family: futura-pt,sans-serif,"ヒラギノ角ゴ Pro W3";
+    font-family: "ヒラギノ角ゴ Pro W3",futura-pt,sans-serif;
     font-style: normal;    
 }
 
@@ -84,38 +84,317 @@ header{
     font-weight: 400;
     padding-top: 12px;
 }
-
+.button1 a{
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+    border: 1px solid #3D5CDB;
+    border-radius: 12px;
+    background-color: #3D5CDB;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+    width: 170px;
+    height: 40px;
+    text-align: center;
+    margin: 30px auto;
+}
+.button1 a:hover{
+    box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.6); 
+}
 
 .intro2{
     width: 1041px;
     margin: 0 auto;
     height: 335px;
+    margin-bottom: 72px;
 }
-
 .intro-text2{
     float: left;
     margin-left: 50px;
     margin-right: 90px;
     margin-top: 35px;
+    
 }
 .intro2 p{
     width: 400px;
 }
-
-.button2{
+.button2 a{
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+    border: 1px solid #FFBF00;
+    border-radius: 12px;
+    background-color: #FFBF00;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+    width: 170px;
+    height: 40px;
+    text-align: center;
+    margin: 0 auto;
 }
-.intro2 img{
+.button2 a:hover{
+    box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.6); 
+}
+
+.courses{
+    background-color: #d6e5f9;
+}
+.subtitle h2{
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+/*.cours-list{
+    margin: 0 210px;
+}*/
+
+.html-c{
+    width: 240px;
+    background: #fff;
+    border-radius: 12px;
+    text-align: center;
+    padding-top: 33px;
+    padding-bottom: 45px;
+    margin-bottom: 30px;
+}
+.html-c p{
+    font-size: 15px;
+    font-weight: 700;
+    color: #333333;
+    padding-top: 40px;
+    padding-bottom: 30px
+}
+.button-html a{
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+    border: 1px solid #f16629;
+    border-radius: 12px;
+    background-color: #f16629;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 40px;
+    width: 170px;
+    height: 40px;
+    margin: 0 auto;
+}
+.button-html a:hover{
+    box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.6); 
+}
+
+.css-c{
+    width: 240px;
+    background: #fff;
+    border-radius: 12px;
+    text-align: center;
+    padding-top: 33px;
+    padding-bottom: 45px;
+    margin-bottom: 30px;
+    margin-left: 22px;
     
 }
+.css-c p{
+    font-size: 15px;
+    font-weight: 700;
+    color: #333333;
+    padding-top: 35px;
+    padding-bottom: 30px
+}
+.button-css a{
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+    border: 1px solid #2AA9DF;
+    border-radius: 12px;
+    background-color: #2AA9DF;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 40px;
+    width: 170px;
+    height: 40px;
+    margin: 0 auto;
+}
+.button-css a:hover{
+    box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.6); 
+}
+
+.unity{
+    width: 240px;
+    background: #fff;
+    border-radius: 12px;
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 45px;
+    margin-bottom: 30px;
+}
+.unity p{
+    font-size: 15px;
+    font-weight: 700;
+    color: #333333;
+    padding-top: 57px;
+    padding-bottom: 30px
+}
+.button-unity a{
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+    border: 1px solid #333333;
+    border-radius: 12px;
+    background-color: #333333;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 40px;
+    width: 170px;
+    height: 40px;
+    margin: 0 auto;
+}
+.button-unity a:hover{
+    box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.6); 
+}
+
+.ruby{
+    width: 240px;
+    background: #fff;
+    border-radius: 12px;
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 45px;
+    margin-bottom: 30px;
+}
+.ruby p{
+    font-size: 15px;
+    font-weight: 700;
+    color: #333333;
+    padding-top: 57px;
+    padding-bottom: 30px
+}
+.button-ruby a{
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+    border: 1px solid #FF5252;
+    border-radius: 12px;
+    background-color: #FF5252;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 40px;
+    width: 170px;
+    height: 40px;
+    margin: 0 auto;
+}
+.button-ruby a:hover{
+    box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.6); 
+}
+
+.JS{
+    width: 240px;
+    background: #fff;
+    border-radius: 12px;
+    text-align: center;
+    padding-top: 33px;
+    padding-bottom: 45px;
+    margin-bottom: 30px;
+}
+.JS p{
+    font-size: 15px;
+    font-weight: 700;
+    color: #333333;
+    padding-top: 35px;
+    padding-bottom: 30px
+}
+.button-JS a{
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+    border: 1px solid #FFD700;
+    border-radius: 12px;
+    background-color: #FFD700;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 40px;
+    width: 170px;
+    height: 40px;
+    margin: 0 auto;
+}
+.button-JS a:hover{
+    box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.6); 
+}
+
+.swift{
+    width: 240px;
+    background: #fff;
+    border-radius: 12px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 45px;
+    margin-bottom: 30px;
+}
+.swift p{
+    font-size: 15px;
+    font-weight: 700;
+    color: #333333;
+    padding-top: 64px;
+    padding-bottom: 30px
+}
+.button-swift a{
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+    border: 1px solid #FE7635;
+    border-radius: 12px;
+    background-color: #FE7635;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 40px;
+    width: 170px;
+    height: 40px;
+    margin: 0 auto;
+}
+.button-swift a:hover{
+    box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.6); 
+}
+
+.go{
+    width: 240px;
+    background: #fff;
+    border-radius: 12px;
+    text-align: center;
+    padding-top: 54px;
+    padding-bottom: 45px;
+    margin-bottom: 30px;
+}
+.go p{
+    font-size: 15px;
+    font-weight: 700;
+    color: #333333;
+    padding-top: 55px;
+    padding-bottom: 30px
+}
+.button-go a{
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+    border: 1px solid #73CFDD;
+    border-radius: 12px;
+    background-color: #73CFDD;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 40px;
+    width: 170px;
+    height: 40px;
+    margin: 0 auto;
+}
+.button-go a:hover{
+    box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.6); 
+}
 
 
 
 
-
-
-
-
-
+.subtitle h4{
+    margin-bottom: 50px;
+}
 
 
 
@@ -124,6 +403,8 @@ header{
     font-weight: 300;
     text-align: center;
     color: #3D5CDB;
+    font-family: futura-pt,sans-serif;
+    
     
 }
 
@@ -133,5 +414,14 @@ footer{
     font-weight: 400;
     text-align: center;
     margin-bottom: 25px;
+    margin-top: 60px;
 }
+
+
+
+
+
+
+
+
 
