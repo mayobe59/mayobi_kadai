@@ -145,9 +145,9 @@ header{
     padding-top: 50px;
     padding-bottom: 70px;
 }
-/*.cours-list{
+.cours-list{
     margin: 0 210px;
-}*/
+}
 
 .html-c{
     width: 240px;
@@ -157,13 +157,14 @@ header{
     padding-top: 33px;
     padding-bottom: 45px;
     margin-bottom: 30px;
+    float: left;
 }
 .html-c p{
     font-size: 15px;
     font-weight: 700;
     color: #333333;
     padding-top: 40px;
-    padding-bottom: 30px
+    padding-bottom: 30px;
 }
 .button-html a{
     text-decoration: none;
@@ -192,6 +193,7 @@ header{
     padding-bottom: 45px;
     margin-bottom: 30px;
     margin-left: 22px;
+    float: left;
     
 }
 .css-c p{
@@ -199,7 +201,7 @@ header{
     font-weight: 700;
     color: #333333;
     padding-top: 35px;
-    padding-bottom: 30px
+    padding-bottom: 30px;
 }
 .button-css a{
     text-decoration: none;
@@ -227,13 +229,14 @@ header{
     padding-top: 55px;
     padding-bottom: 45px;
     margin-bottom: 30px;
+    float: left;
 }
 .unity p{
     font-size: 15px;
     font-weight: 700;
     color: #333333;
     padding-top: 57px;
-    padding-bottom: 30px
+    padding-bottom: 30px;
 }
 .button-unity a{
     text-decoration: none;
@@ -261,13 +264,14 @@ header{
     padding-top: 55px;
     padding-bottom: 45px;
     margin-bottom: 30px;
+    float: left;
 }
 .ruby p{
     font-size: 15px;
     font-weight: 700;
     color: #333333;
     padding-top: 57px;
-    padding-bottom: 30px
+    padding-bottom: 30px;
 }
 .button-ruby a{
     text-decoration: none;
@@ -295,13 +299,14 @@ header{
     padding-top: 33px;
     padding-bottom: 45px;
     margin-bottom: 30px;
+    float: left;
 }
 .JS p{
     font-size: 15px;
     font-weight: 700;
     color: #333333;
     padding-top: 35px;
-    padding-bottom: 30px
+    padding-bottom: 30px;
 }
 .button-JS a{
     text-decoration: none;
@@ -329,13 +334,15 @@ header{
     padding-top: 60px;
     padding-bottom: 45px;
     margin-bottom: 30px;
+    float: left;
 }
 .swift p{
     font-size: 15px;
     font-weight: 700;
     color: #333333;
     padding-top: 64px;
-    padding-bottom: 30px
+    padding-bottom: 30px;
+        
 }
 .button-swift a{
     text-decoration: none;
@@ -369,7 +376,7 @@ header{
     font-weight: 700;
     color: #333333;
     padding-top: 55px;
-    padding-bottom: 30px
+    padding-bottom: 30px;
 }
 .button-go a{
     text-decoration: none;
