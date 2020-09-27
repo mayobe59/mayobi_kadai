@@ -19,6 +19,23 @@ header{
     background-repeat:no-repeat;
     background-size: cover;
 }
+/*.bg-slider {
+	width: 100vw;
+	height: 100vh;
+	background-position:center center;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.bg-slider__title{
+	color: #fff;
+	font-size: 48px;
+	line-height: 1.5;
+	font-weight: bold;
+	text-align:center;
+	text-shadow: 1px 1px 1px #000;
+}*/
 
 .navi{
     float: right;
@@ -140,13 +157,15 @@ header{
 
 .courses{
     background-color: #d6e5f9;
+    height: 944px;
 }
 .subtitle h2{
     padding-top: 50px;
     padding-bottom: 70px;
 }
-.cours-list{
-    margin: 0 210px;
+
+.list-1{
+    margin-left: 210px;
 }
 
 .html-c{
@@ -154,7 +173,7 @@ header{
     background: #fff;
     border-radius: 12px;
     text-align: center;
-    padding-top: 33px;
+    padding-top: 32px;
     padding-bottom: 45px;
     margin-bottom: 30px;
     float: left;
@@ -163,7 +182,7 @@ header{
     font-size: 15px;
     font-weight: 700;
     color: #333333;
-    padding-top: 40px;
+    padding-top: 33px;
     padding-bottom: 30px;
 }
 .button-html a{
@@ -189,10 +208,10 @@ header{
     background: #fff;
     border-radius: 12px;
     text-align: center;
-    padding-top: 33px;
+    padding-top: 32px;
     padding-bottom: 45px;
     margin-bottom: 30px;
-    margin-left: 22px;
+    margin-left: 20px;
     float: left;
     
 }
@@ -200,7 +219,7 @@ header{
     font-size: 15px;
     font-weight: 700;
     color: #333333;
-    padding-top: 35px;
+    padding-top: 18px;
     padding-bottom: 30px;
 }
 .button-css a{
@@ -230,12 +249,13 @@ header{
     padding-bottom: 45px;
     margin-bottom: 30px;
     float: left;
+    margin-left: 20px;
 }
 .unity p{
     font-size: 15px;
     font-weight: 700;
     color: #333333;
-    padding-top: 57px;
+    padding-top: 50px;
     padding-bottom: 30px;
 }
 .button-unity a{
@@ -265,12 +285,13 @@ header{
     padding-bottom: 45px;
     margin-bottom: 30px;
     float: left;
+    margin-left: 20px;
 }
 .ruby p{
     font-size: 15px;
     font-weight: 700;
     color: #333333;
-    padding-top: 57px;
+    padding-top: 50px;
     padding-bottom: 30px;
 }
 .button-ruby a{
@@ -291,6 +312,10 @@ header{
     box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.6); 
 }
 
+.list-2{
+    padding-left: 340px;
+    clear: both;
+}
 .JS{
     width: 240px;
     background: #fff;
@@ -335,12 +360,13 @@ header{
     padding-bottom: 45px;
     margin-bottom: 30px;
     float: left;
+    margin-left: 20px;
 }
 .swift p{
     font-size: 15px;
     font-weight: 700;
     color: #333333;
-    padding-top: 64px;
+    padding-top: 58px;
     padding-bottom: 30px;
         
 }
@@ -370,12 +396,14 @@ header{
     padding-top: 54px;
     padding-bottom: 45px;
     margin-bottom: 30px;
+    float: left;
+    margin-left: 20px;
 }
 .go p{
     font-size: 15px;
     font-weight: 700;
     color: #333333;
-    padding-top: 55px;
+    padding-top: 52px;
     padding-bottom: 30px;
 }
 .button-go a{
@@ -396,11 +424,26 @@ header{
     box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.6); 
 }
 
+.subtitle h3{
+    clear: both;
+    padding-top: 40px;
+}
+
+ .slick-prev:before,
+ .slick-next:before {
+   color: black;
+ }
+.slider { 
+    margin: 83px 140px;
+    
+}
+.slider img { width: 100%;}
 
 
 
 .subtitle h4{
     margin-bottom: 50px;
+    margin-top: 80px;
 }
 
 
