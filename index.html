@@ -10,35 +10,36 @@
     <link rel="stylesheet" href="https://use.typekit.net/ksq2odk.css">
     <link rel="stylesheet" href="slick.css" />
     <link rel="stylesheet" href="slick-theme.css" />
-    <link rel="stylesheet" href="jquery.bgswitcher.js">
-    <link rel="stylesheet" href="particles.min.js">
+
     
     
     
 </head>
 <body>
   
-  <!--<div class="bg-slider">
-  <h1 class="bg-slider__title">BGSWITCHER DEMO PAGE</h1>
-</div>-->
-    <header>
-    <div class="navi">
-       <ul>
+
+  <header>
+   <nav>
+      <ul>
         <li><a href="">Introduction</a></li>
         <li><a href="">Courses</a></li>
         <li><a href="">Images</a></li>
         <li><a href="">Access</a></li>
-        </ul>
+        </ul> 
+   </nav>
+    <div class="navi">
+       
     </div>
     <div class="top">
         <img src="images/logo.png" alt="" width="902px">
         <p>We are Web Designers.</p>
-    </div>
-    
-        
+    </div> 
     </header>
 
+    
+
     <section class="intro" >
+       <div class="fuwat">
         <div class="subtitle">
             <h1>Introduction</h1>
         </div>
@@ -63,17 +64,19 @@
             <img src="images/introduction_002.jpg" alt="" width="500px">
             
         </div>
-            
-        
+            </div>
     </section>
     
     <section class="courses">
+       <div class="fuwat">
+       <div id="hoge">
+       </div>
         <div class="subtitle">
             <h2>Courses</h2>
         </div>
         <div class="cours-list">
-           <div class="list-1">
-               <div class="html-c">
+
+            <div class="html-c">
                 <img src="images/html.png" alt="" width="100px">
                 <p>HTMLコース</p>
                 <div class="button-html">
@@ -105,9 +108,7 @@
                 </div>
             </div>
             
-           </div>
-           <div class="list-2">
-             <div class="JS">
+            <div class="JS">
                 <img src="images/js.png" alt="" width="100px">
                 <p>JavaScriptコース</p>
                 <div class="button-JS">
@@ -132,13 +133,16 @@
             </div>
          
            </div>
+        </div>  
             
             
-         </div>
+         
     </section>
     
     
     <section class="5images">
+       <div class="fuwat">
+       
         <div class="subtitle">
             <h3>Images</h3>
             <ul class="slider">
@@ -152,14 +156,17 @@
      
 </ul>
         </div>
+        </div>
     </section>
     
     <section class="access">
+       <div class="fuwat">
         <div class="subtitle">
             <h4>Access</h4>
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6560.6262797845075!2d135.492449!3d34.697281!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9fec1659611f776f!2zTGlmZSBpcyBUZWNoISDlpKfpmKrjgqrjg5XjgqPjgrk!5e0!3m2!1sja!2sjp!4v1601139625222!5m2!1sja!2sjp" width="600" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
-    </section>
+        </div>
+     </section>
     
     
     
@@ -170,9 +177,9 @@
 
    
    
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script type="text/javascript" src="slick.js"></script>
-    <script>　
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/slick.js"></script>
+<script>　
 $(document).ready(function(){
  　$('.slider').slick({
  　infinite: true,
@@ -184,17 +191,37 @@ $(document).ready(function(){
  });
 </script>
   
-<script src="js/jquery.bgswitcher.js"></script>
+<script src="./js/jquery.bgswitcher.js"></script>
 <script>
 jQuery(function($) {
-    $('.bg-slider').bgSwitcher({
+    $('header').bgSwitcher({
         images: ['images/background2.jpg','images/background3.jpg','images/background4.jpg','images/background5.jpg'], // 切り替える背景画像を指定
+        interval: 7000,
     });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.fuwat').css('visibility','hidden');
+  $(window).scroll(function(){
+   var windowHeight = $(window).height(),
+       topWindow = $(window).scrollTop();
+   $('.fuwat').each(function(){
+    var objectPosition = $(this).offset().top;
+    if(topWindow > objectPosition - windowHeight + 200){
+     $(this).addClass("fuwatAnime");
+    }
+   });
+  });
 });
 </script>
 
 
 
-<script src="particles.js"></script>
+
+<script src="./js/particles.js"></script>
+<script src="./js/particle-settings.js"></script>
+
 </body>
 </html>
