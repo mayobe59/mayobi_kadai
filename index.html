@@ -10,10 +10,7 @@
     <link rel="stylesheet" href="https://use.typekit.net/ksq2odk.css">
     <link rel="stylesheet" href="slick.css" />
     <link rel="stylesheet" href="slick-theme.css" />
-
-    
-    
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
   
@@ -54,6 +51,8 @@
             </div>   
         </div>
         <div class="intro2">
+            <img src="images/introduction_002.jpg" alt="" width="500px">
+           
             <div class="intro-text2">
                 <p>Happy Hackでは「楽しさ」と「真剣さ」をモットーにプログラミングを学びます。コースは全部で7つ準備をしています。WebデザインからWebサービス、3DゲームやiPhoneアプリまで幅広くお楽しみいただけます。<br>自分の想いをカタチにして発信することをぜひこの場で体験してみてください。世界が変わって見えるかもしれません。</p>
                 <div class="button2">
@@ -61,7 +60,6 @@
                 </div>
                 
             </div>
-            <img src="images/introduction_002.jpg" alt="" width="500px">
             
         </div>
             </div>
@@ -168,7 +166,7 @@
     
     
     <footer>
-        &copy;Happy Hack Inc.
+        &copy;2019 Happy Hack Inc.
     </footer>
 
    
@@ -182,6 +180,14 @@ $(document).ready(function(){
   slidesToShow: 4,
   slidesToScroll: 1,
       dots: true,
+      responsive:[
+                {
+                    breakpoint: 479,
+                    settings:{
+                        slidesToShow:1,
+                    }
+                },
+            ]
       
  　});
  });

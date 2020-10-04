@@ -44,6 +44,11 @@ nav a:hover{
     color: #3D5CDB;
     transition: 0.5s ;
 }
+@media screen and (max-width:479px){
+    nav{
+        display: none;
+    }
+}
 
 nav {
     position: absolute;
@@ -61,8 +66,19 @@ nav {
     color: #ffffff;
     font-size: 45px;
     font-weight: 100;
+    font-family: Futura;
     font-style: italic;
     margin-top: 35px
+}
+@media screen and (max-width:479px){
+    .top img{
+        width: 265px;
+    }
+    .top p{
+        font-size: 16px;
+        margin-top: 20px;
+        color: #fff;
+    }
 }
 
 .intro p{
@@ -72,8 +88,18 @@ nav {
     line-height: 32px;
     font-weight: 400;
 }
+@media screen and (max-width:479px){
+    .intro{
+        height: 1423px;
+    }
+}
 .subtitle h1{
     margin-top: 45px;
+}
+@media screen and (max-width:479px){
+    .subtitle h1{
+        margin-top: 40px;
+    }
 }
 .intro1{
     width: 1041px;
@@ -82,15 +108,36 @@ nav {
     display: flex;
 }
 .intro-text1{
-    margin-top: px;
     margin-left: 90px;
     margin-right: 50px;
-    
 }
 .intro1 p{
     font-weight: 400;
     padding-top: 12px;
 }
+@media screen and (max-width:479px){
+    .intro1{
+        width: 100%;
+        margin-top: 50px;
+        display: block;
+    }
+    .intro1 img{
+        height: 223px;
+        width: 335px;
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+    .intro-text1{
+    margin-left: 35px;
+    margin-right: 35px;
+}
+    .intro1 p{
+        font-size: 12px;
+        font-weight: 400;
+}
+    
+}
+
 .button1 a{
     text-decoration: none;
     display: block;
@@ -110,22 +157,48 @@ nav {
     box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.6); 
 }
 
+
 .intro2{
     width: 1041px;
     margin: 0 auto;
     height: 335px;
     margin-bottom: 72px;
     display: flex;
+    flex-direction: row-reverse;
 }
 .intro-text2{
     margin-left: 50px;
     margin-right: 90px;
-    margin-top: 35px;
-    
+    margin-top: 35px;   
 }
 .intro2 p{
     width: 400px;
+    display: block;
 }
+@media screen and (max-width:479px){
+    .intro2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .intro2 img{
+        height: 223px;
+        width: 335px;
+        margin-left: 20px;
+        margin-top: 240px;
+    }
+    .intro-text2{
+        margin-left: 35px;
+        margin-right: 35px;
+        
+}
+    .intro p{
+        font-size: 12px;
+        font-weight: 400;
+        padding-top: 12px;
+        width: 295px;
+    }
+    }
 .button2 a{
     text-decoration: none;
     display: block;
@@ -144,6 +217,11 @@ nav {
 .button2 a:hover{
     box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.6); 
 }
+@media screen and (max-width:479px){
+    .button2 {
+    margin-top: 28px;
+}
+}
 
 
 #hoge{
@@ -154,20 +232,30 @@ nav {
     background-color:#d6e5f9;
     display: block;
     z-index: -1;
-    
 }
+@media screen and (max-width:479px){
+    #hoge{
+        height: 1236px;
+    }
+}
+
 .subtitle h2{
     padding-top: 50px;
     padding-bottom: 70px;
 }
-
+@media screen and (max-width:479px){
+    .subtitle h2{
+    padding-top: 45px;
+    padding-bottom: 45px;
+    }
+}
 .cours-list{
     max-width: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 50px;
+    margin: 0 auto;
 }
 
 .html-c{
@@ -202,6 +290,27 @@ nav {
 }
 .button-html a:hover{
     box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.6); 
+}
+@media screen and (max-width:479px){
+    .html-c{
+        width: 160px;
+        border-radius: 7px;
+        padding-bottom: 30px;
+}
+    .html-c img{
+        width: 50px;
+    }
+    .html-c p{
+    font-size: 11px;
+    padding-top: 25px;
+}
+    .button-html a{
+        border-radius: 20px;
+        font-size: 10px;
+        width: 100px;
+        height: 40px;
+        margin: 0 auto;
+}
 }
 
 .css-c{
@@ -239,6 +348,28 @@ nav {
 .button-css a:hover{
     box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.6); 
 }
+@media screen and (max-width:479px){
+    .css-c{
+        width: 160px;
+        border-radius: 7px;
+        padding-bottom: 30px;
+}
+    .css-c img{
+        width: 50px;
+    }
+    .css-c p{
+    font-size: 11px;
+    padding-top: 18px;
+}
+    .button-css a{
+        border-radius: 20px;
+        font-size: 10px;
+        width: 100px;
+        height: 40px;
+        margin: 0 auto;
+}
+}
+
 
 .unity{
     width: 240px;
@@ -274,6 +405,29 @@ nav {
 .button-unity a:hover{
     box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.6); 
 }
+@media screen and (max-width:479px){
+    .unity{
+        width: 160px;
+        border-radius: 7px;
+        padding-bottom: 30px;
+        padding-top: 35px;
+        margin-left: 1px;
+}
+    .unity img{
+        width: 52px;
+    }
+    .unity p{
+    font-size: 11px;
+    padding-top: 40px;
+}
+    .unity a{
+        border-radius: 20px;
+        font-size: 10px;
+        width: 100px;
+        height: 40px;
+        margin: 0 auto;
+}
+}
 
 .ruby{
     width: 240px;
@@ -308,6 +462,28 @@ nav {
 }
 .button-ruby a:hover{
     box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.6); 
+}
+@media screen and (max-width:479px){
+    .ruby{
+        width: 160px;
+        border-radius: 7px;
+        padding-bottom: 30px;
+        padding-top: 35px;
+}
+    .ruby img{
+        width: 52px;
+    }
+    .ruby p{
+    font-size: 11px;
+    padding-top: 40px;
+}
+    .ruby a{
+        border-radius: 20px;
+        font-size: 10px;
+        width: 100px;
+        height: 40px;
+        margin: 0 auto;
+}
 }
 
 
@@ -345,6 +521,27 @@ nav {
 .button-JS a:hover{
     box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.6); 
 }
+@media screen and (max-width:479px){
+    .JS{
+        width: 160px;
+        border-radius: 7px;
+        padding-bottom: 30px;
+}
+    .JS img{
+        width: 50px;
+    }
+    .JS p{
+    font-size: 11px;
+    padding-top: 21px;
+}
+    .button-JS a{
+        border-radius: 20px;
+        font-size: 10px;
+        width: 100px;
+        height: 40px;
+        margin: 0 auto;
+}
+}
 
 .swift{
     width: 240px;
@@ -381,6 +578,28 @@ nav {
 .button-swift a:hover{
     box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.6); 
 }
+@media screen and (max-width:479px){
+    .swift{
+        width: 160px;
+        border-radius: 7px;
+        padding-bottom: 30px;
+        padding-top: 33px;
+}
+    .swift img{
+        width: 50px;
+    }
+    .swift p{
+    font-size: 11px;
+    padding-top: 47px;
+}
+    .button-swift a{
+        border-radius: 20px;
+        font-size: 10px;
+        width: 100px;
+        height: 40px;
+        margin: 0 auto;
+}
+}
 
 .go{
     width: 240px;
@@ -416,10 +635,34 @@ nav {
 .button-go a:hover{
     box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.6); 
 }
+@media screen and (max-width:479px){
+    .go{
+        width: 160px;
+        border-radius: 7px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        margin-left: 0px;
+}
+    .go img{
+        width: 50px;
+    }
+    .go p{
+    font-size: 11px;
+    padding-top: 45px;
+}
+    .button-go a{
+        border-radius: 20px;
+        font-size: 10px;
+        width: 100px;
+        height: 40px;
+        margin: 0 auto;
+}
+}
+
 
 .subtitle h3{
     clear: both;
-    padding-top: 40px;
+    padding-top: 70px;
 }
 
 
@@ -427,6 +670,11 @@ nav {
     margin: 83px 140px;  
 }
 .slider img { width: 100%;}
+@media screen and (max-width:479px){
+    .slider{
+        margin: 55px 37px;
+    }
+}
 
 
 
@@ -434,6 +682,17 @@ nav {
     margin-bottom: 50px;
     margin-top: 80px;
 }
+@media(max-width: 450px){
+    .subtitle h4{
+        margin-bottom: 32px;
+        margin-top: 118px;
+}
+    iframe{
+        height: 280px;
+        width: 375px;
+    }
+}
+
 
 .subtitle{
     font-size: 53px;
@@ -441,9 +700,14 @@ nav {
     text-align: center;
     color: #3D5CDB;
     font-family: futura-pt,sans-serif;
-    
-    
 }
+@media(max-width: 450px){
+    .subtitle{
+        font-size: 32px;
+        font-weight: 300;
+    }
+}
+
 
 footer{
     font-size: 16px;
